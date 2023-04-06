@@ -42,8 +42,8 @@ RSpec.describe Article, type: :model do
       Article.create(title: 'article 1', body: 'article 1', status: 'public')
       Article.create(title: 'article 2', body: 'article 2', status: 'public')
       Article.create(title: 'article 3', body: 'article 3', status: 'public')
-      Article.create(title: 'article 444', body: 'article 444', status: 'public')
-      Article.create(title: 'article 55555', body: 'article 55555', status: 'public')
+      Article.create(title: 'article 4', body: 'article 4', status: 'public')
+      Article.create(title: 'article 5', body: 'article 5', status: 'public')
       expect(Article.count).to eq 5
     end
   end
